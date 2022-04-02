@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserPortalAPI.Domain\UserPortalAPI.Domain.csproj" />
+    <ProjectReference Include="..\UserPortalAPI.Infrastructure\UserPortalAPI.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
